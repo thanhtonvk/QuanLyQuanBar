@@ -32,7 +32,7 @@ public class SanPhamDAL {
         for (SanPham sanPham:list
         ) {
             //ghi file
-            fileWriter.write(sanPham.toString());
+            fileWriter.write(sanPham.toString()+"\n");
         }
         fileWriter.close();
     }

@@ -31,7 +31,7 @@ public class NguyenLieuDAL {
         for (NguyenLieu nguyenLieu:list
              ) {
             //ghi file
-            fileWriter.write(nguyenLieu.toString());
+            fileWriter.write(nguyenLieu.toString()+"\n");
         }
         fileWriter.close();
     }

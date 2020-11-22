@@ -33,7 +33,7 @@ public class NhanVienDAL {
         for (NhanVien nhanVien:list
         ) {
             //ghi file
-            fileWriter.write(nhanVien.toString());
+            fileWriter.write(nhanVien.toString()+"\n");
         }
         fileWriter.close();
     }

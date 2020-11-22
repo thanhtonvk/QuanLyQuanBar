@@ -28,7 +28,7 @@ public class TaiChinhDAL {
         for (TaiChinh taiChinh:list
         ) {
             //ghi file
-            fileWriter.write(taiChinh.toString());
+            fileWriter.write(taiChinh.toString()+"\n");
         }
         fileWriter.close();
     }
